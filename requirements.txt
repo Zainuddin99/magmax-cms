@@ -1,0 +1,30 @@
+# Django Core
+Django==5.0.1
+django-cms==4.1.1
+
+# Database
+psycopg[binary]>=3.2.0
+
+# Django CMS Plugins & Dependencies
+djangocms-text-ckeditor==5.1.5
+djangocms-file==3.0.0
+djangocms-picture==4.1.1
+djangocms-video==3.0.0
+djangocms-link==3.1.1
+easy-thumbnails==2.8.5
+
+# REST Framework & JWT
+djangorestframework==3.14.0
+djangorestframework-simplejwt==5.3.1
+django-cors-headers==4.3.1
+
+# Image Processing
+Pillow==11.0.0
+
+# Environment Variables
+python-decouple==3.8
+
+# Utilities
+django-filter==23.5
+django-mptt==0.16.0
+

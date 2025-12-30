@@ -1,0 +1,22 @@
+{% load cms_tags sekizai_tags %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% page_attribute "page_title" %}</title>
+    {% render_block "css" %}
+</head>
+<body>
+    {% cms_toolbar %}
+    
+    <div class="container">
+        {% placeholder "content" %}
+    </div>
+    
+    {% render_block "js" %}
+</body>
+</html>
+
+
+
